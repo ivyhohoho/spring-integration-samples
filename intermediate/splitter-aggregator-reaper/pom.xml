@@ -24,7 +24,7 @@
 		<log4j.version>1.2.16</log4j.version>
 		<junit.version>4.10</junit.version>
 		<inject.version>1</inject.version>
-		<spring.version>3.1.2.RELEASE</spring.version>
+		<spring.version>3.2.0.RELEASE</spring.version>
 	</properties>
 
 	<repositories>
