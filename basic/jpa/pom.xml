@@ -16,7 +16,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.integration.version>2.2.6.RELEASE</spring.integration.version>
+		<spring.integration.version>5.5.7</spring.integration.version>
 		<log4j.version>1.2.17</log4j.version>
 		<junit.version>4.10</junit.version>
 		<openjpa.version>2.2.0</openjpa.version>
@@ -35,7 +35,7 @@
 			<id>repo.eclipse</id>
 			<name>Spring Framework Maven Milestone Repository</name>
 			<url> http://download.eclipse.org/rt/eclipselink/maven.repo/</url>
-			<snapshots><enabled></enabled></snapshots>
+			<snapshots><enabled/></snapshots>
 		</repository>
 		<repository>
 			<id>central</id>
@@ -68,7 +68,7 @@
 						<argument>-javaagent:${settings.localRepository}/org/springframework/spring-instrument/${spring-instrument.version}/spring-instrument-${spring-instrument.version}.jar</argument>
 						<argument>-javaagent:${settings.localRepository}/org/apache/openjpa/openjpa/${openjpa.version}/openjpa-${openjpa.version}.jar</argument>
 						<argument>-classpath</argument>
-						<classpath></classpath>
+						<classpath/>
 						<argument>org.springframework.integration.samples.jpa.Main</argument>
 					</arguments>
 				</configuration>
