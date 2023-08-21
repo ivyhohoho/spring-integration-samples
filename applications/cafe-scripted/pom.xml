@@ -98,7 +98,7 @@
 		<dependency>
 			<groupId>org.python</groupId>
 			<artifactId>jython-standalone</artifactId>
-			<version>2.5.2</version>
+			<version>2.7.2</version>
 		</dependency>
 
 		<dependency>
@@ -149,7 +149,7 @@
 							<executable>java</executable>
 							<arguments>
 								<argument>-classpath</argument>
-								<classpath />
+								<classpath/>
 								<argument>org.springframework.integration.samples.cafe.demo.CafeDemoApp</argument>
 								<argument>${lang}</argument>
 							</arguments>
@@ -180,7 +180,7 @@
 							<executable>java</executable>
 							<arguments>
 								<argument>-classpath</argument>
-								<classpath />
+								<classpath/>
 								<argument>org.springframework.integration.samples.cafe.demo.ControlBusMain</argument>
 
 							</arguments>
